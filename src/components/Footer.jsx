@@ -13,11 +13,10 @@ const Footer = () => {
           {/* company info */}
           <div className="md:w-[400px]">
             <Link to="/">
-              <img src="/logo.svg" alt="" />
+              <img src="/ourlogo.png" alt="" />
             </Link>
-            <p className="my-8 text-Black/75">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            <p className="my-8 text-gray/75">
+            Ku soo dhawaaw Shaka E-mall, Alaabta dalka iyo mida dibada ku hel si fudud.
             </p>
             <div className="flex items-center gap-6">
               <FaFacebookF className="w-5 h-5 cursor-pointer hover:text-orange-500" />
@@ -29,29 +28,29 @@ const Footer = () => {
 
           {/* Catalog */}
           <div className="text-Black">
-            <h4 className="font-semibold mb-3">CATALOG</h4>
+            <h4 className="font-semibold mb-3">NOOCYADA ALABTA</h4>
             <div className="space-y-2">
               <Link to="/" className="text-sm block hover:text-orange-500">
-                Necklaces
+                Dharka iyo Kabaha
               </Link>
               <Link to="/" className="text-sm block hover:text-orange-500">
-                Hoodies
+                Maacuunta
               </Link>
               <Link to="/" className="text-sm block hover:text-orange-500">
-                Jewelry Box
+                Alaabta Gurigga
               </Link>
               <Link to="/" className="text-sm block hover:text-orange-500">
-                T-shirt
+                Alaabta Caruurta
               </Link>
               <Link to="/" className="text-sm block hover:text-orange-500">
-                Jacket
+                Jiifka
               </Link>
             </div>
           </div>
 
           {/* CUSTOMER SERVICES */}
-          <div className="text-Black">
-            <h4 className="font-semibold mb-3">CUSTOMER SERVICES</h4>
+          <div className="text-black">
+            <h4 className="font-semibold mb-3">MACLUUMAAD DHEERI AH</h4>
             <div className="space-y-2">
               <Link to="/" className="text-sm block hover:text-orange-500">
                 Contact Us
@@ -59,36 +58,21 @@ const Footer = () => {
               <Link to="/" className="text-sm block hover:text-orange-500">
                 Track Your Order
               </Link>
-              <Link to="/" className="text-sm block hover:text-orange-500">
-                Product Care & Repair
-              </Link>
-              <Link to="/" className="text-sm block hover:text-orange-500">
-                Book an Appointment
-              </Link>
-              <Link to="/" className="text-sm block hover:text-orange-500">
-                Shipping & Returns
-              </Link>
             </div>
           </div>
 
           {/* ABOUT US */}
           <div className="text-Black">
-            <h4 className="font-semibold mb-3">ABOUT US</h4>
+            <h4 className="font-semibold mb-3">NALA SOO XIRIIR</h4>
             <div className="space-y-2">
               <Link to="/" className="text-sm block hover:text-orange-500">
-                Our Producers
+                Mobile: 0617459600
               </Link>
               <Link to="/" className="text-sm block hover:text-orange-500">
-                Sitemap
+                Address: Mogadishu - Somalia
               </Link>
               <Link to="/" className="text-sm block hover:text-orange-500">
-                FAQ
-              </Link>
-              <Link to="/" className="text-sm block hover:text-orange-500">
-                About Us
-              </Link>
-              <Link to="/" className="text-sm block hover:text-orange-500">
-                Terms & Conditions
+                Email: info@sharkae-maill.so
               </Link>
             </div>
           </div>
@@ -97,7 +81,7 @@ const Footer = () => {
 
       {/* footer bottom */}
       <div className="bg-Black">
-      <p className="text-white text-center items-center py-3">© {currentYear} Coral, Inc.</p>
+      <p className="text-white text-center items-center py-3">© {currentYear} Sharka E-Mall - Xuquuqdu Wey Dhowrantahay..</p>
       </div>
     </footer>
   );

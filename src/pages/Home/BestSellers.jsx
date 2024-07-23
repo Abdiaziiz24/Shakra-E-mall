@@ -28,9 +28,9 @@ const BestSellers = () => {
     <div className="max-w-screen-2xl container mx-auto xl:px-28 px-4">
       <div className="text-center">
         <h2 className="text-3xl font-semibold capitalize mb-5">
-        Best Sellers
+        Loogu Gadasho badan yahay
         </h2>
-        <p className="text-black/75 capitalize md:w-2/3 mx-auto mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu nunc, fermentum quis sapien in, placerat scelerisque risus. Class aptent taciti sociosqu ad litora torquent per </p>
+        <p className="text-black/75 capitalize md:w-2/3 mx-auto mb-8"> Adna dalbo oo hel isla maanta!!! </p>
       </div>
 
       {/* best seller products card */}

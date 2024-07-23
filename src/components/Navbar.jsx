@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaSearch, FaShoppingBag, FaTimes, FaUser } from "react-icons/fa";
 import logo from "/logo.svg";
+import ourlogo from "../../public/ourlogo.png" 
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -11,20 +12,20 @@ const Navbar = () => {
     }
     
   const navItems = [
-    { title: "Jewelry & Accessories", path: "/" },
-    { title: "Clothing & Shoes", path: "/" },
-    { title: "Home & Living", path: "/" },
-    { title: "Wedding & Party", path: "/" },
-    { title: "Toys & Entertainment", path: "/" },
-    { title: "Art & Collectibles", path: "/" },
-    { title: "Craft Supplies & Tools", path: "/" },
+    { title: "Bogga Hore", path: "/" },
+    { title: "Dharka iyo Kabaha", path: "/" },
+    { title: "Maacuunta", path: "/" },
+    { title: "Alaab Guri", path: "/" },
+    { title: "Alaabta Caruurta", path: "/" },
+    { title: "Jiifka", path: "/" },
+    { title: "Accessories", path: "/" },
   ];
   return (
     <header className="max-w-screen-2xl xl:px-28 px-4 absolute top-0 left-0 right-0">
       <nav className="flex justify-between items-center container md:py-4 pt-6 pb-3">
         <FaSearch className="text-Black w-6 h-6 cursor-pointer hidden md:block" />
         <a href="/" className="">
-          <img src={logo} alt="" />
+          <img src={ourlogo} alt="" />
         </a>
 
         {/* account and shopping btn */}

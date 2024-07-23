@@ -70,7 +70,7 @@ const Products = () => {
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-28 px-4 mb-12">
       <h2 className="text-3xl font-semibold capitalize text-center my-8">
-        Or subscribe to the newsletter
+        Alaabteena
       </h2>
 
       {/* products card */}
@@ -82,25 +82,25 @@ const Products = () => {
             onClick={showAll}
             className={selectedCategory === "all" ? "active" : ""}
           >
-            All Products
+            Dhamaan Alaabta
           </button>
           <button
             onClick={() => filterItems("Dress")}
             className={selectedCategory === "Dress" ? "active" : ""}
           >
-            Clothing
+            Dharka
           </button>
           <button
             onClick={() => filterItems("Hoodies")}
             className={selectedCategory === "Hoodies" ? "active" : ""}
           >
-            Hoodies
+            Jaakadaha
           </button>
           <button
             onClick={() => filterItems("Bag")}
             className={selectedCategory === "Bag" ? "active" : ""}
           >
-            Bag
+            Boorsooyinka
           </button>
         </div>
 
@@ -117,8 +117,8 @@ const Products = () => {
             <option value="default"> Default</option>
             <option value="A-Z">A-Z</option>
             <option value="Z-A">Z-A</option>
-            <option value="low-to-high">Low to High</option>
-            <option value="high-to-low">High to Low</option>
+            <option value="low-to-high">Ugu Qaalisan</option>
+            <option value="high-to-low">ugu Raqiisan</option>
           </select>
         </div>
         </div>
